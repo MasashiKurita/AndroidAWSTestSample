@@ -1,4 +1,5 @@
 dependencies:
   pre:
+    - echo y | android update sdk --no-ui --all --filter "package-name"
     - chmod +x ./gradlew
 
