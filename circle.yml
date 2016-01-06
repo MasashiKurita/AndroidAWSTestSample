@@ -1,5 +1,5 @@
 dependencies:
   pre:
-    - echo y | android update sdk --no-ui --all --filter "package-name"
+    - echo y | android update sdk --no-ui --all --filter "android-19"
     - chmod +x ./gradlew
 
