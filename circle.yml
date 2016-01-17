@@ -1,5 +1,9 @@
+machine:
+  environment:
+    ANDROID_HOME: /home/ubuntu/android
+
 dependencies:
-  pre:
+#  pre:
     - echo y | android update sdk --no-ui --all --filter "android-19","build-tools-19.1.0"
     - chmod +x ./gradlew
 
