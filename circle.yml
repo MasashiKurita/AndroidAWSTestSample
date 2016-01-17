@@ -1,6 +1,6 @@
 machine:
-  environment:
-    ANDROID_HOME: /home/ubuntu/android
+#  environment:
+#    ANDROID_HOME: /home/ubuntu/android
 
 dependencies:
   pre:
